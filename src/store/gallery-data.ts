@@ -11,3 +11,20 @@ export const galleryImages = [
     testOwl,
     testPanda,
 ];
+
+
+export type ImageUrls = string[];
+
+export function generateImageUrls(numberImages: number): ImageUrls {
+    // const rv: string[] = [];
+
+    // for (let i = 0; i < numberImages; i++) {
+    //     rv.push(`https://source.unsplash.com/random/?animals`);
+    // }
+
+    // console.log('items', rv);
+
+    // return rv;
+
+    return galleryImages;
+}
